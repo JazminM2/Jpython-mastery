@@ -1,0 +1,18 @@
+Algunos comentarios sobre los ejercicios:
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Ejercicio 1.1(b)
+
+Después de crear el archivo art.py y copiar el código, en la terminal escribí:
+
+	$ pyhton .-art.py 10 20
+
+Con este comando se obtiene el traceback para observar los errores del código.
+
+El error está en la línea 25: 'int' object is not iterable
+
+https://www.freecodecamp.org/news/int-object-is-not-iterable-python-error-solved/
+
+Observamos que en la opción print columns se usa "range(columns)" y en rows no. 	
